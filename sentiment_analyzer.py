@@ -5,10 +5,12 @@ import textblob
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.cluster import KMeans
 
-consumer_key = "RuDBYDBqgYXpuJhvsJyQ9Dd14"
-consumer_secret = "cfkV3RaD75vwDc46pH8BJ0oXVmc9myJ9IogOtu9fb3FrtW9rjJ"
-access_token = "701613212-M5xrNAFyU1k4u3LLQBNYba1jejs2SwYRZo9j4ym1"
-access_secret = "2a7lGBnSbe2RfxWivyXZVsSM303wd8QgjvVOygsiHf1PC"
+
+#key, secret(s), token to be obtained by creating and configuring a twitter app https://apps.twitter.com/
+consumer_key = ""
+consumer_secret = ""
+access_token = ""
+access_secret = ""
 
 auth = tweepy.OAuthHandler(consumer_key,consumer_secret)
 
